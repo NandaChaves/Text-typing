@@ -1,0 +1,298 @@
+body{
+	margin:0;
+    background-image: url(mollie-sivaram-yubCnXAA3H8-unsplash.jpg);
+    background-size: cover;
+    /*#ff005c*/
+}
+
+.css-typing  {
+	  font-family: 'Bebas Neue', cursive;
+	  text-transform: uppercase;
+	  font-weight:700;
+	  font-size:35px;
+	  text-align: center;
+	  height:290px;
+	  display: flex;
+	  justify-content: center;
+	  align-items:center;
+	  font-weight:700;
+    -webkit-text-fill-color: red;
+	  text-transform: uppercase;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.00px; 
+}
+
+.css-typing p {
+  white-space: nowrap;
+  overflow: hidden;
+  align-items:center;
+}
+
+
+.css-typing p:nth-child(1) {
+    top: 5%;
+	position: absolute;	
+	width: 100%;
+    animation: typing 5s linear normal;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  top:15%;
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: typing2 5s linear normal;
+  animation: typing2 5s linear normal;
+  -webkit-animation-delay: 1s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.css-typing p:nth-child(3) {
+  top:25%;
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: typing3 5s linear normal;
+  animation: typing3 5s linear normal;
+  -webkit-animation-delay: 2s;
+  animation-delay: 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  position: absolute;
+  white-space: nowrap;
+  
+}
+
+.css-typing p:nth-child(4) {
+  top:35%;
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: typing4 5s linear normal;
+  animation: typing4 5s linear normal;
+  -webkit-animation-delay: 3s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  position: absolute;
+  white-space: nowrap;
+  
+}
+
+.css-typing p:nth-child(5) {
+  top:45%;
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: typing5 5s linear normal;
+  animation: typing5 5s linear normal;
+  -webkit-animation-delay: 4s;
+  animation-delay: 5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.css-typing p:nth-child(6) {
+  top:55%;
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: typing6 5s linear normal;
+  animation: typing5 5s linear normal;
+  -webkit-animation-delay: 5s;
+  animation-delay: 6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.css-typing p:nth-child(7) {
+  top:65%;
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: typing7 5s linear normal;
+  animation: typing5 5s linear normal;
+  -webkit-animation-delay: 6s;
+  animation-delay: 7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  position: absolute;
+  white-space: nowrap;
+}
+
+ a{
+	text-decoration:none;
+     color: aliceblue;
+    -webkit-text-fill-color: wh;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.00px; 
+}
+
+	
+/*
+ animation-fill-mode: forwards;:  depois de acabar a animação ele deve aplicar as propriedades do 100%
+ animation-fill-mode: backwards;: antes de começar a animação ele já deve aplicar as propriedades no 0%
+ animation-fill-mode: both;: uma junção do forwards e backwards */
+
+@keyframes typing{
+  0% {
+    width: 0;
+  }
+  
+}
+
+
+@-webkit-keyframes typing {
+  0% {
+    width: 0;
+  }
+  
+}
+
+
+@keyframes typing2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+  @-webkit-keyframes typing2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes typing3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+  @-webkit-keyframes typing3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+  
+  
+@keyframes typing4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+  @-webkit-keyframes typing4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes typing5 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+  @-webkit-keyframes typing5 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 1;
+    border: none;
+  }
+      
+ 
+@keyframes typing6 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+  @-webkit-keyframes typing6 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+  
+ 
